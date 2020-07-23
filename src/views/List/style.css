@@ -1,0 +1,233 @@
+.border-board {
+  -webkit-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  margin-bottom: 8px;
+  overflow-x: auto;
+  overflow-y: auto;
+  padding-bottom: 8px;
+}
+.box-list {
+  width: 272px;
+  margin: 0 4px;
+  min-height: 50px;
+  max-height: 100%;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.header-list {
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.border-list {
+  background-color: #ebecf0;
+  border-radius: 3px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 50px;
+  max-height: 100%;
+  white-space: normal;
+}
+
+.box-btn-open-form-add-list {
+  height: 30px;
+  background-color: hsla(0, 0%, 100%, 0.123);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.box-btn-open-form-add-list:hover {
+  background-color: hsla(0, 0%, 100%, 0.192);
+}
+
+.btn-open-form-add-list {
+  margin-top: 5px;
+  margin-right: 10px;
+  color: white;
+}
+
+.btn-open-add-list {
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.15);
+  height: 30px;
+  font-size: 15px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.form-add-list {
+  background-color: #ebecf0;
+  border-radius: 3px;
+  height: auto;
+  min-height: 32px;
+  padding: 4px;
+  transition: background 85ms ease-in, opacity 40ms ease-in, border-color 85ms ease-in;
+  display: flex;
+  flex-direction: column;
+}
+button {
+  background-color: greenyellow;
+}
+.btn-add-card {
+  width: 100px;
+  height: 30px;
+}
+
+.box-btn-add-card {
+  width: 300px;
+  height: 5%;
+  margin: 1ch;
+  font-size: 15px;
+  color: gray;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.list-card {
+  flex: 1 1 auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 1;
+  min-height: 0;
+}
+
+/* .border-card {
+  border: 1px solid rgb(168, 167, 167);
+} */
+
+.box-btn-open-add-card-form {
+  min-height: 20px;
+  max-height: 38px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 3px;
+}
+
+.box-btn-open-add-card-form:hover {
+  background-color: #cdcfd3;
+}
+
+.btn-open-add-card-form {
+  border-radius: 3px;
+  color: #5e6c84;
+  display: block;
+  flex: 1 0 auto;
+  text-decoration: none;
+  -webkit-user-select: none;
+  user-select: none;
+  margin-right: 10px;
+}
+
+.card-box {
+  box-shadow: 0 2px 0 rgba(9, 30, 66, 0.25);
+  border-radius: 5px;
+  margin-top: 1ch;
+  margin-top: 1ch;
+  border: 1px solid rgb(168, 167, 167);
+  background-color: rgb(255, 255, 255);
+}
+
+.card-box:hover {
+  background-color: rgba(214, 208, 208, 0);
+}
+
+.card-title {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  text-decoration: none;
+  word-wrap: break-word;
+  color: #172b4d;
+}
+
+.window-detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.64);
+  display: block;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+}
+
+.card-detail {
+  background-color: #f4f5f7;
+  border-radius: 2px;
+  margin: 48px 0 80px;
+  overflow: hidden;
+  position: fixed;
+  width: 768px;
+  z-index: 25;
+  height: 600px;
+  left: 25%;
+  right: 20%;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+}
+
+.header-detail {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.content-detail {
+  margin-top: 10%;
+  min-height: 400px;
+  max-height: 600px;
+}
+
+.ant-layout-header {
+  color: black;
+}
+.ant-layout-sider {
+  color: black;
+  line-height: 120px;
+}
+.ant-layout-sider {
+  border-left: 2px solid gray;
+  padding: 2%;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(186, 188, 192, 0.603);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  /* background: #555; */
+}
